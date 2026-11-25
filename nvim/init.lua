@@ -1,2 +1,10 @@
-require("kbgjtn.config")
-require("kbgjtn.lazy")
+require("kbgjtn.options")
+require("kbgjtn.keymaps")
+require("kbgjtn.packs")
+require("kbgjtn.colorscheme")
+require("kbgjtn.fzf_lua")
+
+require("kbgjtn.lsp")
+require("kbgjtn.completion").setup()
+require("kbgjtn.autocmd")
+require("kbgjtn.auto_pairs").setup({ string_handling = "none", })
