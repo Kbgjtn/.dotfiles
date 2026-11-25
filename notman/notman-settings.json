@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "settings": {
+    "guard-enabled": true,
+    "screenshot-notify-enabled": true,
+    "screencast-notify-enabled": true,
+    "transient-expire-enabled": false,
+    "transient-dnd-only": true,
+    "burst-limit-enabled": false,
+    "quiet-hours-enabled": true,
+    "show-indicator": true,
+    "clear-on-panel-open": false,
+    "debug-logging": false,
+    "screenshot-max-count": 0,
+    "screenshot-expire-seconds": 0,
+    "screenshot-memory-budget-mb": 0,
+    "emergency-hard-cap": 16,
+    "transient-expire-seconds": 30,
+    "global-expire-minutes": 0,
+    "global-max-count": 0,
+    "burst-window-seconds": 10,
+    "burst-max-per-source": 3,
+    "indicator-index": 3,
+    "screenshot-thumbnail-mode": "compact",
+    "indicator-position": "right",
+    "app-rules": "[]",
+    "quiet-hours-start": "22:00",
+    "quiet-hours-end": "08:00"
+  }
+}
